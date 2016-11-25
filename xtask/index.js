@@ -14,13 +14,17 @@ var xtask = function(){
 
 	this.fixTask = (task)=>{
 		task.preActionsSet = new Set();
-		for(var key of task.preActions){
-			task.preActionsSet.add(key);
+		if(task.preActions){
+			for(var key of task.preActions){
+				task.preActionsSet.add(key);
+			}
 		}
                 task.postActionsSet = new Set();
 		//TODO: backward implementation
-		//for(var key of task.postActions){
-		//	task.postActionsSet.add(key);
+		//if(task.postActions){
+		//	for(var key of task.postActions){
+		//		task.postActionsSet.add(key);
+		//	}
 		//}
 		return task;
 	};
