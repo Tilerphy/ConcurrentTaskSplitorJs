@@ -1,4 +1,8 @@
-# Javascript Version
+# Theory and C# version
+
+https://github.com/Tilerphy/ConcurrentTaskSplitor
+
+# Envrionment
 ES6
 
 `for..of`
