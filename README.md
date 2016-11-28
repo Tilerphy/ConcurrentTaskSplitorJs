@@ -28,3 +28,11 @@ If you test in NodeJs, just to run `node test.js` or  `nodejs test.js`
 
 If you test in Browsers, please copy the code from source files.
 
+
+# From npm
+
+Run `npm install xtask`
+
+then like this : `test-npm.js` 
+
+
