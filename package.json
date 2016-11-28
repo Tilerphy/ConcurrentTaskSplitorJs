@@ -1,0 +1,23 @@
+{
+  "name": "xtask",
+  "version": "1.0.0",
+  "description": "Util uses to split tasks into parallel tasks groups.",
+  "main": "./xtask/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tilerphy/ConcurrentTaskSplitorJs.git"
+  },
+  "keywords": [
+    "parallel",
+    "tasks"
+  ],
+  "author": "Tilerphy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Tilerphy/ConcurrentTaskSplitorJs/issues"
+  },
+  "homepage": "https://github.com/Tilerphy/ConcurrentTaskSplitorJs#readme"
+}
