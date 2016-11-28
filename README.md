@@ -35,4 +35,11 @@ Run `npm install xtask`
 
 then like this : `test-npm.js` 
 
-
+# Task Structure
+```
+var task = {
+        key:"taskName",
+        preActions: ["task1", "task3", "task4"],
+        postActions: [],
+};
+```
